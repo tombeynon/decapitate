@@ -1,7 +1,7 @@
 decapitate
 ==========
 
-Simple sticky table headers
+Simple sticky table headers, triggered when the user scrolls past the header.
 
 Usage
 =====
