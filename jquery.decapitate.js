@@ -78,8 +78,13 @@
 	  			scrollLeft = $(window).scrollLeft();
 	  			
 	    if(scrollTop > data.tablePos.top){
+				if(!thFixed){
+					data.thRow.css({
+		      	"position": "fixed",
+		      	"z-index": "1000"
+		      });
+				}
 	      data.thRow.css({
-	      	"position": "fixed",
 	      	"top": "0px",
 	      	"left": data.tablePos.left - scrollLeft
 	      });
