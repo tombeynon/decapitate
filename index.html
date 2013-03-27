@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>	
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -30,18 +32,53 @@
       <section>
         <h1>decapitate - Simple sticky table headers</h1>
 
-<p>Simple sticky table headers, triggered when the user scrolls past the header.</p>
+				<p>Simple sticky table headers, triggered when the user scrolls past the header.</p>
+				
+				<h2>Demo</h2>
+				
+				<table class="decapitate">
+					<thead>
+			  		<tr>
+					    <th>Entry Header 1</th>
+					    <th>Entry Header 2</th>
+					    <th>Entry Header 3</th>
+					    <th>Entry Header 4</th>
+					  </tr>
+					</thead>
+					<tbody>
+				  	<tr>
+					    <td>Entry First Line 1</td>
+					    <td>Entry First Line 2</td>
+					    <td>Entry First Line 3</td>
+					    <td>Entry First Line 4</td>
+					  </tr>
+					  <tr>
+					    <td>Entry Line 1</td>
+					    <td>Entry Line 2</td>
+					    <td>Entry Line 3</td>
+					    <td>Entry Line 4</td>
+					  </tr>
+					  <tr>
+					    <td>Entry Last Line 1</td>
+					    <td>Entry Last Line 2</td>
+					    <td>Entry Last Line 3</td>
+					    <td>Entry Last Line 4</td>
+					  </tr>
+					</tbody>
+				</table>
+				
+				
+				<h2>Usage</h2>
 
-<h1>Usage</h1>
+				<pre><code>$(document).ready(function(){
+				    $("table.decapitate").decapitate();
+				});
+				</code></pre>
 
-<pre><code>$(document).ready(function(){
-    $("table.decapitate").decapitate();
-});
-</code></pre>
+				<p>That's it! Ensure that you've wrapped your header row with <code>&lt;thead&gt;</code> for cross-compatibility</p>
 
-<p>That's it! Ensure that you've wrapped your header row with <code>&lt;thead&gt;</code> for cross-compatibility</p>
-
-<p>Kudos to <a href="https://github.com/boxofrad">@boxofrad</a> for the name!</p>
+				<p>Kudos to <a href="https://github.com/boxofrad">@boxofrad</a> for the name!</p>
+				
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/tombeynon">tombeynon</a></p>
@@ -50,5 +87,14 @@
     </div>
     <script src="javascripts/scale.fix.js"></script>
     
+		<script src="jquery.decapitate.js"></script>
+	  <script>
+
+			$(document).ready(function(){
+			     $("table.decapitate").decapitate();
+			});
+
+	  </script>
+
   </body>
 </html>
