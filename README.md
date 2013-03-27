@@ -13,7 +13,7 @@ Usage
 
 Include the plugin:
 
-`<script src="jquery.decapitate.js"></script>`
+    <script src="jquery.decapitate.js"></script>
 
 And initialise it:
 
