@@ -7,7 +7,9 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="stylesheets/demo.css">
+    
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>	
     <!--[if lt IE 9]>
@@ -33,6 +35,8 @@
         <h1>decapitate - Simple sticky table headers</h1>
 
 				<p>Simple sticky table headers, triggered when the user scrolls past the header.</p>
+				
+				<hr />
 				
 				<h2>Demo</h2>
 				
@@ -121,9 +125,16 @@
 					</tbody>
 				</table>
 				
+				<hr />
 				
 				<h2>Usage</h2>
-
+				
+				<p>Include the plugin:</p>
+				
+				<pre><code>&lt;script src="jquery.decapitate.js"&gt;&lt;/script&gt;</code></pre>
+				
+				<p>And initialise it:</p>
+				
 <pre><code>$(document).ready(function(){
     $("table.decapitate").decapitate();
 });

@@ -1,0 +1,17 @@
+table.decapitate th{
+	background:#fff;
+}
+
+table.decapitate th,
+table.decapitate td{
+	border-right:1px solid #E5E5E5;
+}
+
+table.decapitate th:last-child,
+table.decapitate td:last-child{
+	border-right:none;
+}
+
+table.decapitate tbody tr:last-child td{
+	border-bottom:none;
+}
