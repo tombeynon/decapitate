@@ -3,7 +3,7 @@ decapitate - Simple sticky table headers
 
 Simple sticky table headers, triggered when the user scrolls past the header.
 
-Demo
+Demo and download
 =====
 
 http://tombeynon.github.com/decapitate/
