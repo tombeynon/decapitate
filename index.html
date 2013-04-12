@@ -10,7 +10,8 @@
 		<link rel="stylesheet" href="stylesheets/demo.css">
     
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+		<meta name="description" content="Simple fixed table headers that follow the browser as you scroll. Supports jQuery 1.4.2 and above" />
+		
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>	
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,9 +27,9 @@
 
 
         <ul>
-          <li><a href="https://github.com/tombeynon/decapitate/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/tombeynon/decapitate/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/tombeynon/decapitate">View On <strong>GitHub</strong></a></li>
+          <li><a href="https://github.com/tombeynon/decapitate/zipball/master" class="download" rel="zip">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/tombeynon/decapitate/tarball/master" class="download" rel="tar">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/tombeynon/decapitate" class="view" rel="github">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
       <section>
@@ -144,24 +145,18 @@
 
 				<p>That's it! Ensure that you've wrapped your header row with <code>&lt;thead&gt;</code> for cross-compatibility</p>
 
-				<p>Kudos to <a href="https://github.com/boxofrad">@boxofrad</a> for the name!</p>
+				<p>Kudos to <a href="https://github.com/boxofrad" class="view" rel="github-boxofrad">@boxofrad</a> for the name!</p>
 				
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/tombeynon">tombeynon</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p>This project is maintained by <a href="https://github.com/tombeynon" class="view" rel="github">tombeynon</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist" class="view" rel="github-theme-author">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
     
 		<script src="javascripts/jquery.decapitate.js"></script>
-	  <script>
-
-			$(document).ready(function(){
-			     $("table.decapitate").decapitate();
-			});
-
-	  </script>
+	  <script src="javascripts/application.js"></script>
 	
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
